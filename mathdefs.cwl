@@ -177,16 +177,12 @@
 \INNER{x}{y}
 \INNER[size-mod]{x}{y}
 \INNER*{x}{y}
-\INNERIN{space}{x}{y}
-\INNERIN[size-mod]{space}{x}{y}
-\INNERIN*{space}{x}{y}
 \LINTERV{a}{b}
 \LINTERV[size-mod]{a}{b}
 \LINTERV*{a}{b}
 \NORM{x}
 \NORM[size-mod]{x}
 \NORM*{x}
-\NORMIN{space}{x}
 \NORM[size-mod]{space}{x}
 \NORM*{space}{x}
 \OINTERV{a}{b}
@@ -199,12 +195,6 @@
 \SET[size-mod]{x \GIVEN cond}
 \SET*{x \GIVEN cond}
 %
-\INNERINX
-\INNERINY
-\INNERINZ
-\NORMINX
-\NORMINY
-\NORMINZ
 %
 %
 %
@@ -218,6 +208,7 @@
 \DIM
 \EQDEF
 \NULL
+\PROX
 \RANGE
 \RANK
 \SHOULDEQ
