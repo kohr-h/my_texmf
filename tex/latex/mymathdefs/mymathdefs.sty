@@ -78,6 +78,7 @@
 \newcommand*{\DUALOPZ}{{\DUAL{\OPZ}}}
 
 \newcommand*{\FT}{\OP{F}}
+\newcommand*{\ID}{\OP{I}}
 
 
 % Bold vectors
@@ -190,21 +191,30 @@
 \DeclarePairedDelimiterX{\INNER}[2]{\langle}{\rangle}{\ifblank{#1}{\:\cdot\,}{#1},\ifblank{#2}{\,\cdot\,}{\, #2}}
 
 % Math operators
+\DeclareMathOperator*{\ARGINF}{arg\,inf}
+\DeclareMathOperator*{\ARGMAX}{arg\,max}
 \DeclareMathOperator*{\ARGMIN}{arg\,min}
+\DeclareMathOperator*{\ARGSUP}{arg\,sup}
 \DeclareMathOperator{\DEFEQ}{{\coloneqq}}
 \DeclareMathOperator{\DET}{det}
 \DeclareMathOperator{\DIAG}{diag}
 \DeclareMathOperator{\DIM}{dim}
+\DeclareMathOperator{\DIV}{div}
 \DeclareMathOperator{\EQDEF}{{\eqqcolon}}
+\DeclareMathOperator{\GRAD}{grad}
+\DeclareMathOperator{\KER}{ker}
 \DeclareMathOperator{\NULL}{N}
 \DeclareMathOperator{\PROX}{prox}
+\DeclareMathOperator{\RAN}{ran}
 \DeclareMathOperator{\RANGE}{range}
 \DeclareMathOperator{\RANK}{rank}
-\DeclareMathOperator{\SHOULDEQ}{{\,\stackrel{!}{=}\,}}
+\DeclareMathOperator{\SHOULDEQ}{{\stackrel{!}{=}}}
 \DeclareMathOperator{\SIGN}{sign}
 \DeclareMathOperator{\SINC}{sinc}
 \DeclareMathOperator{\SPAN}{span}
 \DeclareMathOperator{\SUPP}{supp}
+\DeclareMathOperator{\WEAKLYTO}{\rightharpoonup}
+\DeclareMathOperator{\WEAKLYTO*}{\mathop{\rightharpoonup}^{*}}
 
 % Other math stuff
 
@@ -212,17 +222,20 @@
 \newcommand*{\D}{{\ensuremath{\mathrm{d}}}}
 \newcommand*{\EQ}[0]{\ensuremath{\Leftrightarrow}}
 \newcommand*{\EPS}{{\ensuremath{\varepsilon}}}
+\newcommand*{\EVALAT}[3]{{\ensuremath{\left. \vphantom{g_{g_g}} {#1} \right|_{#2}^{#3}}}}
 \newcommand*{\FUNCRESTR}[2]{{\ensuremath{\left. \vphantom{g_{g_g}} {#1} \right|_{#2}}}}
 \newcommand*{\HALF}{{\ensuremath{\nicefrac{1}{2}}}}
 \newcommand*{\HERM}[1]{{\ensuremath{#1^{\mathrm{H}}}}}
 \newcommand*{\I}[0]{\ensuremath{\mathit{i}}}
 \newcommand*{\IMAG}[0]{\ensuremath{\mathrm{Im}}}
+\newcommand*{\IND}{{\ensuremath{\iota}}}
 \newcommand*{\INV}[1]{\ensuremath{\frac{1}{#1}}}
 \newcommand*{\LAPLACE}[0]{\ensuremath{\varDelta}}
 \newcommand*{\LEQ}[0]{\ensuremath{\Longleftrightarrow}}
 \newcommand*{\ORD}[0]{\ensuremath{\mathcal{O}}}
 \newcommand*{\ORDS}[0]{\ensuremath{o}}
 \newcommand*{\PARTD}[2]{{\ensuremath{\frac{\partial #1}{\partial #2}}}}
+\newcommand*{\PDATZERO}[1]{{\ensuremath{\left. \frac{\partial}{\partial #1} \right|_{#1=0}}}}
 \newcommand*{\REAL}[0]{\ensuremath{\mathrm{Re}}}
 \newcommand*{\TRANSP}[1]{{\ensuremath{#1^{\mathrm{T}}}}}
 \newcommand*{\TS}[0]{\ensuremath{\textstyle}}

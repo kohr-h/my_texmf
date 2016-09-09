@@ -82,6 +82,7 @@
 \DUALOPZ
 % 
 \FT
+\ID
 % 
 % 
 % % Bold vectors
@@ -200,15 +201,21 @@
 %
 % % Math operators
 %
+\ARGINF
+\ARGMAX
 \ARGMIN
+\ARGSUP
 \D
 \DEFEQ
 \DET
 \DIAG
 \DIM
+\DIV
 \EQDEF
+\KER
 \NULL
 \PROX
+\RAN
 \RANGE
 \RANK
 \SHOULDEQ
@@ -216,6 +223,8 @@
 \SINC
 \SPAN
 \SUPP
+\WEAKTO
+\WEAKTO*
 %
 %
 % 
@@ -224,17 +233,20 @@
 \CCONJ{x}
 \EQ
 \EPS
+\EVALAT{expr}{lower}{upper}
 \FUNCRESTR{f}{restrict-to}
 \HALF
 \HERM{x}
 \I
 \IMAG
+\IND
 \INV{x}
 \LAPLACE
 \LEQ
 \ORD
 \ORDS
 \PARTD{f}{x}
+\PDATZERO{var}
 \REAL
 \TRANSP{x}
 \TS

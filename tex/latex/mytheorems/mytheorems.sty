@@ -1,3 +1,4 @@
+\RequirePackage{amsthm}
 \RequirePackage{thmtools}
 
 % theorem styles and definitions
@@ -14,10 +15,10 @@
  postheadspace = 1em %
 ]{thmstyle}
 
-\declaretheorem[style=thmstyle, parent=section, name=Theorem]{theorem}
-\declaretheorem[style=thmstyle, numbered=no, name=Theorem]{theorem*}
-\declaretheorem[style=thmstyle, sharenumber=theorem, name=Lemma]{lemma}
-\declaretheorem[style=thmstyle, sharenumber=theorem, name=Corollary]{corollary}
+\declaretheorem[style=thmstyle, parent=section, name=Theorem]{mytheorem}
+\declaretheorem[style=thmstyle, numbered=no, name=Theorem]{mytheorem*}
+\declaretheorem[style=thmstyle, sharenumber=mytheorem, name=Lemma]{mylemma}
+\declaretheorem[style=thmstyle, sharenumber=mytheorem, name=Corollary]{mycorollary}
 
 \declaretheoremstyle[%
  spaceabove = 3ex,%
@@ -32,7 +33,7 @@
  qed = \textsquare
 ]{algorithmstyle}
 
-\declaretheorem[style=algorithmstyle, sharenumber=theorem, name=Algorithm]{algorithm}
+\declaretheorem[style=algorithmstyle, sharenumber=mytheorem, name=Algorithm]{myalgorithm}
 
 \declaretheoremstyle[%
  spaceabove = 3ex,%
@@ -46,7 +47,7 @@
  postheadspace = 1em%
 ]{definitionstyle}
 
-\declaretheorem[style=definitionstyle, sharenumber=theorem, name=Definition]{definition}
+\declaretheorem[style=definitionstyle, sharenumber=mytheorem, name=Definition]{mydefinition}
 
 \declaretheoremstyle[%
  spaceabove = 3ex,%
@@ -60,8 +61,8 @@
  qed = \textsquare%
 ]{remarkstyle}
 
-\declaretheorem[style=remarkstyle, numbered=no, name=Remark]{remark}
-\declaretheorem[style=remarkstyle, sharenumber=theorem, name=Example]{example}
+\declaretheorem[style=remarkstyle, numbered=no, name=Remark]{myremark}
+\declaretheorem[style=remarkstyle, sharenumber=mytheorem, name=Example]{myexample}
 
 \declaretheoremstyle[%
  spaceabove = 3ex,%
@@ -74,7 +75,7 @@
  postheadspace = 0em%
 ]{remarksstyle}
 
-\declaretheorem[style=remarksstyle, numbered=no, name=Remarks]{remarks}
+\declaretheorem[style=remarksstyle, numbered=no, name=Remarks]{myremarks}
 
 \declaretheoremstyle[%
  spaceabove = 3ex,%
