@@ -193,6 +193,7 @@
 \RINTERV[size-mod]{a}{b}
 \RINTERV*{a}{b}
 \RET{x \GIVEN cond}
+\SET{x \GIVEN cond}
 \SET[size-mod]{x \GIVEN cond}
 \SET*{x \GIVEN cond}
 %
