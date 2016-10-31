@@ -16,17 +16,17 @@
 \DUALX
 \DUALY
 \DUALZ
-% 
+%
 \LINOP{X}{Y}
 \BLINOP{X}{Y}
-% 
-% 
+%
+%
 % % Operators
-% 
+%
 % Operators
 %
 \OP{name}
-% 
+%
 \OPA
 \OPB
 \OPC
@@ -53,7 +53,7 @@
 \OPX
 \OPY
 \OPZ
-% 
+%
 \DUALOPA
 \DUALOPB
 \DUALOPC
@@ -80,11 +80,11 @@
 \DUALOPX
 \DUALOPY
 \DUALOPZ
-% 
+%
 \FT
 \ID
-% 
-% 
+%
+%
 % % Bold vectors
 \BDNULL
 \BDONE
@@ -164,8 +164,8 @@
 \BDZeta
 \BDTheta
 \BDXi
-% 
-% 
+%
+%
 %
 % % Delimiter macros
 %
@@ -212,6 +212,7 @@
 \DIAG
 \DIM
 \DIV
+\EMBED
 \EQDEF
 \KER
 \NULL
@@ -228,7 +229,7 @@
 \WEAKTO*
 %
 %
-% 
+%
 % % Other math stuff
 %
 \CCONJ{x}
@@ -251,20 +252,20 @@
 \REAL
 \TRANSP{x}
 \TS
-% 
-% 
-% 
+%
+%
+%
 % % Special sets
-% 
-% 
+%
+%
 \NN
 \ZZ
 \RR
 \CC
-% 
+%
 \DOMAIN
 %
 \SPHERE
 \SCHWARTZ
-% 
-% 
+%
+%
