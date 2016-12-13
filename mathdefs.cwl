@@ -4,6 +4,7 @@
 % % Spaces
 %
 \SPACE{name}
+\BV
 \HILBERT{k}{set}
 \SOBOLEV{k}{p}{set}
 \SPCX
@@ -54,35 +55,9 @@
 \OPY
 \OPZ
 %
-\DUALOPA
-\DUALOPB
-\DUALOPC
-\DUALOPD
-\DUALOPE
-\DUALOPF
-\DUALOPG
-\DUALOPH
-\DUALOPI
-\DUALOPJ
-\DUALOPK
-\DUALOPL
-\DUALOPM
-\DUALOPN
-\DUALOPO
-\DUALOPP
-\DUALOPQ
-\DUALOPR
-\DUALOPS
-\DUALOPT
-\DUALOPU
-\DUALOPV
-\DUALOPW
-\DUALOPX
-\DUALOPY
-\DUALOPZ
-%
 \FT
 \ID
+\TV
 %
 %
 % % Bold vectors
@@ -184,15 +159,12 @@
 \NORM{x}
 \NORM[size-mod]{x}
 \NORM*{x}
-\NORM[size-mod]{space}{x}
-\NORM*{space}{x}
 \OINTERV{a}{b}
 \OINTERV[size-mod]{a}{b}
 \OINTERV*{a}{b}
 \RINTERV{a}{b}
 \RINTERV[size-mod]{a}{b}
 \RINTERV*{a}{b}
-\RET{x \GIVEN cond}
 \SET{x \GIVEN cond}
 \SET[size-mod]{x \GIVEN cond}
 \SET*{x \GIVEN cond}
@@ -206,7 +178,6 @@
 \ARGMAX
 \ARGMIN
 \ARGSUP
-\D
 \DEFEQ
 \DET
 \DIAG
@@ -214,6 +185,7 @@
 \DIV
 \EMBED
 \EQDEF
+\GRAD
 \KER
 \NULL
 \PROX
@@ -232,7 +204,10 @@
 %
 % % Other math stuff
 %
+\BIGO
 \CCONJ{x}
+\D
+\DUNION
 \EQ
 \EPS
 \EVALAT{expr}{lower}{upper}
@@ -241,17 +216,16 @@
 \HERM{x}
 \I
 \IMAG
-\IND
+\INDICATOR
 \INV{x}
 \LAPLACE
-\LEQ
-\ORD
-\ORDS
+\LONGEQUIV
 \PARTD{f}{x}
 \PDATZERO{var}
 \REAL
+\SMALLO
 \TRANSP{x}
-\TS
+\TSTYLE
 %
 %
 %
