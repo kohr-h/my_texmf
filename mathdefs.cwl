@@ -243,3 +243,11 @@
 \SCHWARTZ
 %
 %
+%
+% % Custom math environments
+%
+%
+\begin{lrcases}
+\end{lrcases}
+%
+%
