@@ -124,8 +124,11 @@
 \BDepsilon
 \BDeta
 \BDkappa
-\BDomega
+\BDmu
+\BDnu
+\BDsigma
 \BDzeta
+\BDomega
 \BDtheta
 \BDxi
 \BDAlpha
