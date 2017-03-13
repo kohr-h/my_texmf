@@ -126,6 +126,7 @@
 \BDkappa
 \BDmu
 \BDnu
+\BDphi
 \BDsigma
 \BDzeta
 \BDomega
@@ -138,6 +139,8 @@
 \BDEpsilon
 \BDEta
 \BDKappa
+\BDPhi
+\BDSigma
 \BDOmega
 \BDZeta
 \BDTheta
